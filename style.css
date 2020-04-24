@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800&display=swap');
+
+
+boby, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    max-width: 180px;
+    width: 150px;
+}
+
+
+/* Carousel Slider Css */
+.slider-content p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.slider-content {
+    padding-right: 32%;
+}
+
+.buy-btn {
+    background-image: linear-gradient(to bottom, #FF9E33, #FFC51E);
+    color: #fff;
+    border: none;
+    padding: 7px 27px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.buy-btn:hover{
+    background-image: linear-gradient(to top, rgb(221, 184, 72), rgb(202, 120, 31));
+    
+}
+.carousel-indicators .active {
+    background-color: #FFCE1A;
+}
+
+.carousel-indicators li{
+    background: black;
+    
+}
+
+/* Product card Section Css */
+
+.product-content {
+    margin-bottom: 46px;
+    margin-top: 40px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 19px whitesmoke;
+    padding: 40px;
+}
+.card-footer {
+    
+    background-color: white; 
+    border-top: none;
+}
+
+/* Category Section Css */
+.catagory-section {
+    position: relative;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.catagory-section h3:after {
+    position: absolute;
+    left: 526px;
+    top: -85%;
+    content: "";
+    border-bottom: 1px  solid #FFA331;
+    border-width: 6px;
+    width: 85px;
+    height: 100%;
+    z-index: 99;
+}
+
+.catagory-section h3 {
+    padding: 30px;
+}
+
+.cat-img img {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 12px #F4F4F4;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.product-margin {
+    margin-left: 70px;
+}
